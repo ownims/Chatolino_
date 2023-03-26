@@ -1,0 +1,10 @@
+C:\Users\Usuario\source\repos\Chatolino\bin\Debug\Chatolino.exe.config
+C:\Users\Usuario\source\repos\Chatolino\bin\Debug\Chatolino.exe
+C:\Users\Usuario\source\repos\Chatolino\bin\Debug\Chatolino.pdb
+C:\Users\Usuario\source\repos\Chatolino\obj\Debug\Chatolino.csproj.AssemblyReference.cache
+C:\Users\Usuario\source\repos\Chatolino\obj\Debug\Chatolino.FrmLogin.resources
+C:\Users\Usuario\source\repos\Chatolino\obj\Debug\Chatolino.Properties.Resources.resources
+C:\Users\Usuario\source\repos\Chatolino\obj\Debug\Chatolino.csproj.GenerateResource.cache
+C:\Users\Usuario\source\repos\Chatolino\obj\Debug\Chatolino.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\Chatolino\obj\Debug\Chatolino.exe
+C:\Users\Usuario\source\repos\Chatolino\obj\Debug\Chatolino.pdb
