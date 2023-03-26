@@ -3,18 +3,22 @@ using Chatolino.Models;
 
 namespace Chatolino.Managers {
     public class MessageManager {
-        private readonly List<Message> _messages;
+        private List<Message> messages;
 
         public MessageManager() {
-            _messages = new List<Message>();
+            messages = new List<Message>();
         }
 
         public void AddMessage(Message message) {
-            _messages.Add(message);
+            messages.Add(message);
         }
 
-        public List<Message> GetMessages(ChatRoom chatRoom) {
-            return _messages.FindAll(m => m.ChatRoom.Name == chatRoom.Name);
+        public List<Message> GetMessagesByChatRoom(ChatRoom chatRoom) {
+            return messages.FindAll(m => m.ChatRoom.Name == chatRoom.Name);
+        }
+
+        public List<Message> GetMessagesByUser(User user) {
+            return messages.FindAll(m => m.User.Name == user.Name);
         }
     }
 }

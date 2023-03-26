@@ -7,6 +7,7 @@ namespace Chatolino.Models {
         public string Text { get; set; }
         public DateTime Timestamp { get; set; }
         public ChatRoom ChatRoom { get; set; }
+        public User User { get; set; }
 
     }
 }

@@ -3,26 +3,26 @@ using Chatolino.Models;
 
 namespace Chatolino.Managers {
     public class UserManager {
-        private List<User> users;
+        private List<User> _users;
 
         public UserManager() {
-            users = new List<User>();
+            _users = new List<User>();
         }
 
         public void AddUser(User user) {
-            users.Add(user);
+            _users.Add(user);
         }
 
         public void RemoveUser(User user) {
-            users.Remove(user);
+            _users.Remove(user);
         }
 
         public User GetUserByName(string name) {
-            return users.Find(u => u.Name == name);
+            return _users.Find(u => u.Name == name);
         }
 
         public List<User> GetAllUsers() {
-            return users;
+            return _users;
         }
     }
 }

@@ -46,12 +46,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ChatClient.cs" />
     <Compile Include="FrmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmLogin.Designer.cs">
       <DependentUpon>FrmLogin.cs</DependentUpon>
     </Compile>
+    <Compile Include="Managers\ChatManager.cs" />
     <Compile Include="Managers\ChatRoomManager.cs" />
     <Compile Include="Managers\MessageManager.cs" />
     <Compile Include="Managers\UserManager.cs" />
